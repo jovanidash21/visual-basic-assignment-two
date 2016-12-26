@@ -28,6 +28,7 @@ Partial Class FormNumber2
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.Color.CadetBlue
         Me.ClientSize = New System.Drawing.Size(284, 261)
         Me.Name = "FormNumber2"
         Me.Text = "Area Calculator"
