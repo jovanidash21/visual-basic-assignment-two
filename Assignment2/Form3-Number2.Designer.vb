@@ -64,7 +64,7 @@ Partial Class FormNumber2
         Me.SquareGroupBox.ForeColor = System.Drawing.Color.White
         Me.SquareGroupBox.Location = New System.Drawing.Point(9, 155)
         Me.SquareGroupBox.Name = "SquareGroupBox"
-        Me.SquareGroupBox.Size = New System.Drawing.Size(165, 123)
+        Me.SquareGroupBox.Size = New System.Drawing.Size(158, 123)
         Me.SquareGroupBox.TabIndex = 1
         Me.SquareGroupBox.TabStop = False
         Me.SquareGroupBox.Text = "Square"
@@ -73,7 +73,7 @@ Partial Class FormNumber2
         '
         Me.SquareAreaAnswer.AutoSize = True
         Me.SquareAreaAnswer.ForeColor = System.Drawing.Color.Black
-        Me.SquareAreaAnswer.Location = New System.Drawing.Point(63, 56)
+        Me.SquareAreaAnswer.Location = New System.Drawing.Point(58, 56)
         Me.SquareAreaAnswer.Name = "SquareAreaAnswer"
         Me.SquareAreaAnswer.Size = New System.Drawing.Size(19, 19)
         Me.SquareAreaAnswer.TabIndex = 9
@@ -83,7 +83,7 @@ Partial Class FormNumber2
         '
         Me.SquareAreaLabel.AutoSize = True
         Me.SquareAreaLabel.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.SquareAreaLabel.Location = New System.Drawing.Point(18, 58)
+        Me.SquareAreaLabel.Location = New System.Drawing.Point(13, 58)
         Me.SquareAreaLabel.Name = "SquareAreaLabel"
         Me.SquareAreaLabel.Size = New System.Drawing.Size(45, 16)
         Me.SquareAreaLabel.TabIndex = 8
@@ -93,7 +93,7 @@ Partial Class FormNumber2
         '
         Me.SquareSideLabel.AutoSize = True
         Me.SquareSideLabel.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.SquareSideLabel.Location = New System.Drawing.Point(23, 33)
+        Me.SquareSideLabel.Location = New System.Drawing.Point(18, 33)
         Me.SquareSideLabel.Name = "SquareSideLabel"
         Me.SquareSideLabel.Size = New System.Drawing.Size(40, 16)
         Me.SquareSideLabel.TabIndex = 8
@@ -102,7 +102,7 @@ Partial Class FormNumber2
         'SquareSideTextBox
         '
         Me.SquareSideTextBox.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.SquareSideTextBox.Location = New System.Drawing.Point(67, 30)
+        Me.SquareSideTextBox.Location = New System.Drawing.Point(62, 30)
         Me.SquareSideTextBox.MaxLength = 9
         Me.SquareSideTextBox.Name = "SquareSideTextBox"
         Me.SquareSideTextBox.Size = New System.Drawing.Size(90, 23)
@@ -117,7 +117,7 @@ Partial Class FormNumber2
         Me.SquareComputeButton.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.SquareComputeButton.Location = New System.Drawing.Point(5, 85)
         Me.SquareComputeButton.Name = "SquareComputeButton"
-        Me.SquareComputeButton.Size = New System.Drawing.Size(153, 31)
+        Me.SquareComputeButton.Size = New System.Drawing.Size(147, 31)
         Me.SquareComputeButton.TabIndex = 1
         Me.SquareComputeButton.Text = "COMPUTE"
         Me.SquareComputeButton.UseVisualStyleBackColor = False
@@ -135,7 +135,7 @@ Partial Class FormNumber2
         Me.TriangleGroupBox.ForeColor = System.Drawing.Color.White
         Me.TriangleGroupBox.Location = New System.Drawing.Point(8, 12)
         Me.TriangleGroupBox.Name = "TriangleGroupBox"
-        Me.TriangleGroupBox.Size = New System.Drawing.Size(165, 140)
+        Me.TriangleGroupBox.Size = New System.Drawing.Size(159, 140)
         Me.TriangleGroupBox.TabIndex = 0
         Me.TriangleGroupBox.TabStop = False
         Me.TriangleGroupBox.Text = "Triangle"
@@ -144,7 +144,7 @@ Partial Class FormNumber2
         '
         Me.TriangleAreaAnswer.AutoSize = True
         Me.TriangleAreaAnswer.ForeColor = System.Drawing.Color.Black
-        Me.TriangleAreaAnswer.Location = New System.Drawing.Point(64, 78)
+        Me.TriangleAreaAnswer.Location = New System.Drawing.Point(58, 78)
         Me.TriangleAreaAnswer.Name = "TriangleAreaAnswer"
         Me.TriangleAreaAnswer.Size = New System.Drawing.Size(19, 19)
         Me.TriangleAreaAnswer.TabIndex = 8
@@ -154,7 +154,7 @@ Partial Class FormNumber2
         '
         Me.TriangleAreaLabel.AutoSize = True
         Me.TriangleAreaLabel.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TriangleAreaLabel.Location = New System.Drawing.Point(18, 78)
+        Me.TriangleAreaLabel.Location = New System.Drawing.Point(12, 78)
         Me.TriangleAreaLabel.Name = "TriangleAreaLabel"
         Me.TriangleAreaLabel.Size = New System.Drawing.Size(45, 16)
         Me.TriangleAreaLabel.TabIndex = 5
@@ -164,7 +164,7 @@ Partial Class FormNumber2
         '
         Me.TriangleHeightLabel.AutoSize = True
         Me.TriangleHeightLabel.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TriangleHeightLabel.Location = New System.Drawing.Point(8, 54)
+        Me.TriangleHeightLabel.Location = New System.Drawing.Point(2, 54)
         Me.TriangleHeightLabel.Name = "TriangleHeightLabel"
         Me.TriangleHeightLabel.Size = New System.Drawing.Size(55, 16)
         Me.TriangleHeightLabel.TabIndex = 3
@@ -174,7 +174,7 @@ Partial Class FormNumber2
         '
         Me.TriangleBaseLabel.AutoSize = True
         Me.TriangleBaseLabel.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TriangleBaseLabel.Location = New System.Drawing.Point(19, 29)
+        Me.TriangleBaseLabel.Location = New System.Drawing.Point(13, 29)
         Me.TriangleBaseLabel.Name = "TriangleBaseLabel"
         Me.TriangleBaseLabel.Size = New System.Drawing.Size(44, 16)
         Me.TriangleBaseLabel.TabIndex = 0
@@ -183,7 +183,7 @@ Partial Class FormNumber2
         'TriangleHeightTextBox
         '
         Me.TriangleHeightTextBox.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TriangleHeightTextBox.Location = New System.Drawing.Point(69, 51)
+        Me.TriangleHeightTextBox.Location = New System.Drawing.Point(63, 51)
         Me.TriangleHeightTextBox.MaxLength = 9
         Me.TriangleHeightTextBox.Name = "TriangleHeightTextBox"
         Me.TriangleHeightTextBox.Size = New System.Drawing.Size(90, 23)
@@ -192,7 +192,7 @@ Partial Class FormNumber2
         'TriangleBaseTextBox
         '
         Me.TriangleBaseTextBox.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TriangleBaseTextBox.Location = New System.Drawing.Point(69, 26)
+        Me.TriangleBaseTextBox.Location = New System.Drawing.Point(63, 26)
         Me.TriangleBaseTextBox.MaxLength = 9
         Me.TriangleBaseTextBox.Name = "TriangleBaseTextBox"
         Me.TriangleBaseTextBox.Size = New System.Drawing.Size(90, 23)
@@ -207,7 +207,7 @@ Partial Class FormNumber2
         Me.TriangleComputeButton.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TriangleComputeButton.Location = New System.Drawing.Point(6, 103)
         Me.TriangleComputeButton.Name = "TriangleComputeButton"
-        Me.TriangleComputeButton.Size = New System.Drawing.Size(153, 31)
+        Me.TriangleComputeButton.Size = New System.Drawing.Size(147, 31)
         Me.TriangleComputeButton.TabIndex = 7
         Me.TriangleComputeButton.Text = "COMPUTE"
         Me.TriangleComputeButton.UseVisualStyleBackColor = False
@@ -225,7 +225,7 @@ Partial Class FormNumber2
         Me.Rectangle.ForeColor = System.Drawing.Color.White
         Me.Rectangle.Location = New System.Drawing.Point(9, 284)
         Me.Rectangle.Name = "Rectangle"
-        Me.Rectangle.Size = New System.Drawing.Size(165, 140)
+        Me.Rectangle.Size = New System.Drawing.Size(158, 140)
         Me.Rectangle.TabIndex = 3
         Me.Rectangle.TabStop = False
         Me.Rectangle.Text = "Rectangle"
@@ -234,7 +234,7 @@ Partial Class FormNumber2
         '
         Me.RectangleAreaAnswer.AutoSize = True
         Me.RectangleAreaAnswer.ForeColor = System.Drawing.Color.Black
-        Me.RectangleAreaAnswer.Location = New System.Drawing.Point(63, 74)
+        Me.RectangleAreaAnswer.Location = New System.Drawing.Point(57, 74)
         Me.RectangleAreaAnswer.Name = "RectangleAreaAnswer"
         Me.RectangleAreaAnswer.Size = New System.Drawing.Size(19, 19)
         Me.RectangleAreaAnswer.TabIndex = 10
@@ -243,7 +243,7 @@ Partial Class FormNumber2
         'RectangleHeightTextBox
         '
         Me.RectangleHeightTextBox.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RectangleHeightTextBox.Location = New System.Drawing.Point(67, 48)
+        Me.RectangleHeightTextBox.Location = New System.Drawing.Point(62, 48)
         Me.RectangleHeightTextBox.MaxLength = 9
         Me.RectangleHeightTextBox.Name = "RectangleHeightTextBox"
         Me.RectangleHeightTextBox.Size = New System.Drawing.Size(90, 23)
@@ -252,7 +252,7 @@ Partial Class FormNumber2
         'RectangleWidthTextBox
         '
         Me.RectangleWidthTextBox.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RectangleWidthTextBox.Location = New System.Drawing.Point(67, 23)
+        Me.RectangleWidthTextBox.Location = New System.Drawing.Point(62, 23)
         Me.RectangleWidthTextBox.MaxLength = 9
         Me.RectangleWidthTextBox.Name = "RectangleWidthTextBox"
         Me.RectangleWidthTextBox.Size = New System.Drawing.Size(90, 23)
@@ -262,7 +262,7 @@ Partial Class FormNumber2
         '
         Me.RectangleAreaLabel.AutoSize = True
         Me.RectangleAreaLabel.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RectangleAreaLabel.Location = New System.Drawing.Point(18, 74)
+        Me.RectangleAreaLabel.Location = New System.Drawing.Point(13, 74)
         Me.RectangleAreaLabel.Name = "RectangleAreaLabel"
         Me.RectangleAreaLabel.Size = New System.Drawing.Size(45, 16)
         Me.RectangleAreaLabel.TabIndex = 8
@@ -272,7 +272,7 @@ Partial Class FormNumber2
         '
         Me.RectangleWidthLabel.AutoSize = True
         Me.RectangleWidthLabel.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RectangleWidthLabel.Location = New System.Drawing.Point(14, 28)
+        Me.RectangleWidthLabel.Location = New System.Drawing.Point(8, 28)
         Me.RectangleWidthLabel.Name = "RectangleWidthLabel"
         Me.RectangleWidthLabel.Size = New System.Drawing.Size(51, 16)
         Me.RectangleWidthLabel.TabIndex = 10
@@ -282,7 +282,7 @@ Partial Class FormNumber2
         '
         Me.RectangleHeightLabel.AutoSize = True
         Me.RectangleHeightLabel.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RectangleHeightLabel.Location = New System.Drawing.Point(10, 51)
+        Me.RectangleHeightLabel.Location = New System.Drawing.Point(5, 51)
         Me.RectangleHeightLabel.Name = "RectangleHeightLabel"
         Me.RectangleHeightLabel.Size = New System.Drawing.Size(55, 16)
         Me.RectangleHeightLabel.TabIndex = 9
@@ -297,7 +297,7 @@ Partial Class FormNumber2
         Me.RectangleComputeButton.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RectangleComputeButton.Location = New System.Drawing.Point(5, 103)
         Me.RectangleComputeButton.Name = "RectangleComputeButton"
-        Me.RectangleComputeButton.Size = New System.Drawing.Size(153, 31)
+        Me.RectangleComputeButton.Size = New System.Drawing.Size(147, 31)
         Me.RectangleComputeButton.TabIndex = 2
         Me.RectangleComputeButton.Text = "COMPUTE"
         Me.RectangleComputeButton.UseVisualStyleBackColor = False
@@ -307,9 +307,9 @@ Partial Class FormNumber2
         Me.HistoryGroupBox.Controls.Add(Me.HistoryTextBox)
         Me.HistoryGroupBox.Font = New System.Drawing.Font("Tahoma", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.HistoryGroupBox.ForeColor = System.Drawing.Color.White
-        Me.HistoryGroupBox.Location = New System.Drawing.Point(183, 12)
+        Me.HistoryGroupBox.Location = New System.Drawing.Point(173, 12)
         Me.HistoryGroupBox.Name = "HistoryGroupBox"
-        Me.HistoryGroupBox.Size = New System.Drawing.Size(165, 375)
+        Me.HistoryGroupBox.Size = New System.Drawing.Size(175, 375)
         Me.HistoryGroupBox.TabIndex = 4
         Me.HistoryGroupBox.TabStop = False
         Me.HistoryGroupBox.Text = "History"
@@ -323,7 +323,7 @@ Partial Class FormNumber2
         Me.HistoryTextBox.Location = New System.Drawing.Point(6, 26)
         Me.HistoryTextBox.Multiline = True
         Me.HistoryTextBox.Name = "HistoryTextBox"
-        Me.HistoryTextBox.Size = New System.Drawing.Size(153, 343)
+        Me.HistoryTextBox.Size = New System.Drawing.Size(163, 343)
         Me.HistoryTextBox.TabIndex = 3
         '
         'ResetButton
@@ -334,9 +334,9 @@ Partial Class FormNumber2
         Me.ResetButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.ResetButton.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ResetButton.ForeColor = System.Drawing.Color.White
-        Me.ResetButton.Location = New System.Drawing.Point(183, 393)
+        Me.ResetButton.Location = New System.Drawing.Point(173, 393)
         Me.ResetButton.Name = "ResetButton"
-        Me.ResetButton.Size = New System.Drawing.Size(165, 31)
+        Me.ResetButton.Size = New System.Drawing.Size(175, 31)
         Me.ResetButton.TabIndex = 2
         Me.ResetButton.Text = "RESET"
         Me.ResetButton.UseVisualStyleBackColor = False

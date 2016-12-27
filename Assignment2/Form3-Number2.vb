@@ -107,5 +107,6 @@
         RectangleAreaAnswer.Text = "0"
 
         HistoryTextBox.Text = ""
+        'Reset Values
     End Sub
 End Class
