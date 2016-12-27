@@ -23,11 +23,13 @@ Partial Class FormNumber2
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.SquareGroupBox = New System.Windows.Forms.GroupBox()
+        Me.SquareAreaAnswer = New System.Windows.Forms.Label()
         Me.SquareAreaLabel = New System.Windows.Forms.Label()
         Me.SquareSideLabel = New System.Windows.Forms.Label()
         Me.SquareSideTextBox = New System.Windows.Forms.TextBox()
         Me.SquareComputeButton = New System.Windows.Forms.Button()
         Me.TriangleGroupBox = New System.Windows.Forms.GroupBox()
+        Me.TriangleAreaAnswer = New System.Windows.Forms.Label()
         Me.TriangleAreaLabel = New System.Windows.Forms.Label()
         Me.TriangleHeightLabel = New System.Windows.Forms.Label()
         Me.TriangleBaseLabel = New System.Windows.Forms.Label()
@@ -35,6 +37,7 @@ Partial Class FormNumber2
         Me.TriangleBaseTextBox = New System.Windows.Forms.TextBox()
         Me.TriangleComputeButton = New System.Windows.Forms.Button()
         Me.Rectangle = New System.Windows.Forms.GroupBox()
+        Me.RectangleAreaAnswer = New System.Windows.Forms.Label()
         Me.RectangleHeightTextBox = New System.Windows.Forms.TextBox()
         Me.RectangleWidthTextBox = New System.Windows.Forms.TextBox()
         Me.RectangleAreaLabel = New System.Windows.Forms.Label()
@@ -43,10 +46,7 @@ Partial Class FormNumber2
         Me.RectangleComputeButton = New System.Windows.Forms.Button()
         Me.HistoryGroupBox = New System.Windows.Forms.GroupBox()
         Me.HistoryTextBox = New System.Windows.Forms.TextBox()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.TriangleAreaAnswer = New System.Windows.Forms.Label()
-        Me.SquareAreaAnswer = New System.Windows.Forms.Label()
-        Me.RectangleAreaAnswer = New System.Windows.Forms.Label()
+        Me.ResetButton = New System.Windows.Forms.Button()
         Me.SquareGroupBox.SuspendLayout()
         Me.TriangleGroupBox.SuspendLayout()
         Me.Rectangle.SuspendLayout()
@@ -68,6 +68,16 @@ Partial Class FormNumber2
         Me.SquareGroupBox.TabIndex = 1
         Me.SquareGroupBox.TabStop = False
         Me.SquareGroupBox.Text = "Square"
+        '
+        'SquareAreaAnswer
+        '
+        Me.SquareAreaAnswer.AutoSize = True
+        Me.SquareAreaAnswer.ForeColor = System.Drawing.Color.Black
+        Me.SquareAreaAnswer.Location = New System.Drawing.Point(63, 56)
+        Me.SquareAreaAnswer.Name = "SquareAreaAnswer"
+        Me.SquareAreaAnswer.Size = New System.Drawing.Size(19, 19)
+        Me.SquareAreaAnswer.TabIndex = 9
+        Me.SquareAreaAnswer.Text = "0"
         '
         'SquareAreaLabel
         '
@@ -129,6 +139,16 @@ Partial Class FormNumber2
         Me.TriangleGroupBox.TabIndex = 0
         Me.TriangleGroupBox.TabStop = False
         Me.TriangleGroupBox.Text = "Triangle"
+        '
+        'TriangleAreaAnswer
+        '
+        Me.TriangleAreaAnswer.AutoSize = True
+        Me.TriangleAreaAnswer.ForeColor = System.Drawing.Color.Black
+        Me.TriangleAreaAnswer.Location = New System.Drawing.Point(64, 78)
+        Me.TriangleAreaAnswer.Name = "TriangleAreaAnswer"
+        Me.TriangleAreaAnswer.Size = New System.Drawing.Size(19, 19)
+        Me.TriangleAreaAnswer.TabIndex = 8
+        Me.TriangleAreaAnswer.Text = "0"
         '
         'TriangleAreaLabel
         '
@@ -210,6 +230,16 @@ Partial Class FormNumber2
         Me.Rectangle.TabStop = False
         Me.Rectangle.Text = "Rectangle"
         '
+        'RectangleAreaAnswer
+        '
+        Me.RectangleAreaAnswer.AutoSize = True
+        Me.RectangleAreaAnswer.ForeColor = System.Drawing.Color.Black
+        Me.RectangleAreaAnswer.Location = New System.Drawing.Point(63, 74)
+        Me.RectangleAreaAnswer.Name = "RectangleAreaAnswer"
+        Me.RectangleAreaAnswer.Size = New System.Drawing.Size(19, 19)
+        Me.RectangleAreaAnswer.TabIndex = 10
+        Me.RectangleAreaAnswer.Text = "0"
+        '
         'RectangleHeightTextBox
         '
         Me.RectangleHeightTextBox.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -275,12 +305,11 @@ Partial Class FormNumber2
         'HistoryGroupBox
         '
         Me.HistoryGroupBox.Controls.Add(Me.HistoryTextBox)
-        Me.HistoryGroupBox.Controls.Add(Me.Button1)
         Me.HistoryGroupBox.Font = New System.Drawing.Font("Tahoma", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.HistoryGroupBox.ForeColor = System.Drawing.Color.White
         Me.HistoryGroupBox.Location = New System.Drawing.Point(183, 12)
         Me.HistoryGroupBox.Name = "HistoryGroupBox"
-        Me.HistoryGroupBox.Size = New System.Drawing.Size(165, 412)
+        Me.HistoryGroupBox.Size = New System.Drawing.Size(165, 375)
         Me.HistoryGroupBox.TabIndex = 4
         Me.HistoryGroupBox.TabStop = False
         Me.HistoryGroupBox.Text = "History"
@@ -297,49 +326,20 @@ Partial Class FormNumber2
         Me.HistoryTextBox.Size = New System.Drawing.Size(153, 343)
         Me.HistoryTextBox.TabIndex = 3
         '
-        'Button1
+        'ResetButton
         '
-        Me.Button1.BackColor = System.Drawing.Color.IndianRed
-        Me.Button1.FlatAppearance.BorderColor = System.Drawing.Color.DimGray
-        Me.Button1.FlatAppearance.BorderSize = 2
-        Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button1.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.Location = New System.Drawing.Point(6, 375)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(153, 31)
-        Me.Button1.TabIndex = 2
-        Me.Button1.Text = "CLEAR"
-        Me.Button1.UseVisualStyleBackColor = False
-        '
-        'TriangleAreaAnswer
-        '
-        Me.TriangleAreaAnswer.AutoSize = True
-        Me.TriangleAreaAnswer.ForeColor = System.Drawing.Color.Black
-        Me.TriangleAreaAnswer.Location = New System.Drawing.Point(64, 78)
-        Me.TriangleAreaAnswer.Name = "TriangleAreaAnswer"
-        Me.TriangleAreaAnswer.Size = New System.Drawing.Size(19, 19)
-        Me.TriangleAreaAnswer.TabIndex = 8
-        Me.TriangleAreaAnswer.Text = "0"
-        '
-        'SquareAreaAnswer
-        '
-        Me.SquareAreaAnswer.AutoSize = True
-        Me.SquareAreaAnswer.ForeColor = System.Drawing.Color.Black
-        Me.SquareAreaAnswer.Location = New System.Drawing.Point(63, 56)
-        Me.SquareAreaAnswer.Name = "SquareAreaAnswer"
-        Me.SquareAreaAnswer.Size = New System.Drawing.Size(19, 19)
-        Me.SquareAreaAnswer.TabIndex = 9
-        Me.SquareAreaAnswer.Text = "0"
-        '
-        'RectangleAreaAnswer
-        '
-        Me.RectangleAreaAnswer.AutoSize = True
-        Me.RectangleAreaAnswer.ForeColor = System.Drawing.Color.Black
-        Me.RectangleAreaAnswer.Location = New System.Drawing.Point(63, 74)
-        Me.RectangleAreaAnswer.Name = "RectangleAreaAnswer"
-        Me.RectangleAreaAnswer.Size = New System.Drawing.Size(19, 19)
-        Me.RectangleAreaAnswer.TabIndex = 10
-        Me.RectangleAreaAnswer.Text = "0"
+        Me.ResetButton.BackColor = System.Drawing.Color.Maroon
+        Me.ResetButton.FlatAppearance.BorderColor = System.Drawing.Color.DimGray
+        Me.ResetButton.FlatAppearance.BorderSize = 2
+        Me.ResetButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ResetButton.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ResetButton.ForeColor = System.Drawing.Color.White
+        Me.ResetButton.Location = New System.Drawing.Point(183, 393)
+        Me.ResetButton.Name = "ResetButton"
+        Me.ResetButton.Size = New System.Drawing.Size(165, 31)
+        Me.ResetButton.TabIndex = 2
+        Me.ResetButton.Text = "RESET"
+        Me.ResetButton.UseVisualStyleBackColor = False
         '
         'FormNumber2
         '
@@ -348,6 +348,7 @@ Partial Class FormNumber2
         Me.BackColor = System.Drawing.Color.CadetBlue
         Me.ClientSize = New System.Drawing.Size(354, 431)
         Me.Controls.Add(Me.HistoryGroupBox)
+        Me.Controls.Add(Me.ResetButton)
         Me.Controls.Add(Me.Rectangle)
         Me.Controls.Add(Me.TriangleGroupBox)
         Me.Controls.Add(Me.SquareGroupBox)
@@ -376,7 +377,7 @@ Partial Class FormNumber2
     Friend WithEvents TriangleBaseLabel As Label
     Friend WithEvents TriangleHeightTextBox As TextBox
     Friend WithEvents TriangleBaseTextBox As TextBox
-    Friend WithEvents Button1 As Button
+    Friend WithEvents ResetButton As Button
     Friend WithEvents TriangleAreaLabel As Label
     Friend WithEvents SquareAreaLabel As Label
     Friend WithEvents SquareSideLabel As Label
