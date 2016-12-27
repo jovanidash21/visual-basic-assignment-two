@@ -76,6 +76,8 @@ Partial Class AssignmentHomeForm
         Me.Controls.Add(Me.Number1Button)
         Me.Controls.Add(Me.Assignment2Label)
         Me.ForeColor = System.Drawing.Color.WhiteSmoke
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog
+        Me.MaximizeBox = False
         Me.Name = "AssignmentHomeForm"
         Me.Text = "Assignment No. 2"
         Me.ResumeLayout(False)

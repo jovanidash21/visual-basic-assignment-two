@@ -352,6 +352,8 @@ Partial Class FormNumber2
         Me.Controls.Add(Me.Rectangle)
         Me.Controls.Add(Me.TriangleGroupBox)
         Me.Controls.Add(Me.SquareGroupBox)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog
+        Me.MaximizeBox = False
         Me.Name = "FormNumber2"
         Me.Text = "Area Calculator"
         Me.SquareGroupBox.ResumeLayout(False)
