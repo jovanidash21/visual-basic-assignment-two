@@ -22,7 +22,6 @@ Partial Class FormNumber1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.CalculatorMainTextBox = New System.Windows.Forms.TextBox()
         Me.Button9 = New System.Windows.Forms.Button()
         Me.Button8 = New System.Windows.Forms.Button()
         Me.Button7 = New System.Windows.Forms.Button()
@@ -41,23 +40,8 @@ Partial Class FormNumber1
         Me.Button0 = New System.Windows.Forms.Button()
         Me.ButtonPoint = New System.Windows.Forms.Button()
         Me.ButtonEqual = New System.Windows.Forms.Button()
+        Me.CalculatorMainTextBox = New System.Windows.Forms.TextBox()
         Me.SuspendLayout()
-        '
-        'CalculatorMainTextBox
-        '
-        Me.CalculatorMainTextBox.AccessibleRole = System.Windows.Forms.AccessibleRole.TitleBar
-        Me.CalculatorMainTextBox.BackColor = System.Drawing.Color.Silver
-        Me.CalculatorMainTextBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.CalculatorMainTextBox.Cursor = System.Windows.Forms.Cursors.No
-        Me.CalculatorMainTextBox.Enabled = False
-        Me.CalculatorMainTextBox.Font = New System.Drawing.Font("Impact", 54.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.CalculatorMainTextBox.ForeColor = System.Drawing.Color.Black
-        Me.CalculatorMainTextBox.Location = New System.Drawing.Point(4, 6)
-        Me.CalculatorMainTextBox.MaxLength = 8
-        Me.CalculatorMainTextBox.Name = "CalculatorMainTextBox"
-        Me.CalculatorMainTextBox.Size = New System.Drawing.Size(347, 97)
-        Me.CalculatorMainTextBox.TabIndex = 0
-        Me.CalculatorMainTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
         'Button9
         '
@@ -347,6 +331,21 @@ Partial Class FormNumber1
         Me.ButtonEqual.Text = "="
         Me.ButtonEqual.UseVisualStyleBackColor = False
         '
+        'CalculatorMainTextBox
+        '
+        Me.CalculatorMainTextBox.AccessibleRole = System.Windows.Forms.AccessibleRole.TitleBar
+        Me.CalculatorMainTextBox.BackColor = System.Drawing.Color.Silver
+        Me.CalculatorMainTextBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.CalculatorMainTextBox.Cursor = System.Windows.Forms.Cursors.No
+        Me.CalculatorMainTextBox.Enabled = False
+        Me.CalculatorMainTextBox.Font = New System.Drawing.Font("Impact", 54.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CalculatorMainTextBox.ForeColor = System.Drawing.Color.Black
+        Me.CalculatorMainTextBox.Location = New System.Drawing.Point(4, 6)
+        Me.CalculatorMainTextBox.Name = "CalculatorMainTextBox"
+        Me.CalculatorMainTextBox.Size = New System.Drawing.Size(347, 97)
+        Me.CalculatorMainTextBox.TabIndex = 0
+        Me.CalculatorMainTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
+        '
         'FormNumber1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -378,8 +377,6 @@ Partial Class FormNumber1
         Me.PerformLayout()
 
     End Sub
-
-    Friend WithEvents CalculatorMainTextBox As TextBox
     Friend WithEvents Button9 As Button
     Friend WithEvents Button8 As Button
     Friend WithEvents Button7 As Button
@@ -398,4 +395,5 @@ Partial Class FormNumber1
     Friend WithEvents Button0 As Button
     Friend WithEvents ButtonPoint As Button
     Friend WithEvents ButtonEqual As Button
+    Friend WithEvents CalculatorMainTextBox As TextBox
 End Class
