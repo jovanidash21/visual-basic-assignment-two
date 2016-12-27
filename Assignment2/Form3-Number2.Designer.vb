@@ -319,7 +319,7 @@ Partial Class FormNumber2
         Me.HistoryTextBox.BackColor = System.Drawing.Color.Silver
         Me.HistoryTextBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.HistoryTextBox.Enabled = False
-        Me.HistoryTextBox.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.HistoryTextBox.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.HistoryTextBox.Location = New System.Drawing.Point(6, 26)
         Me.HistoryTextBox.Multiline = True
         Me.HistoryTextBox.Name = "HistoryTextBox"

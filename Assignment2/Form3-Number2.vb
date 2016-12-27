@@ -77,12 +77,14 @@
         Dim TriangleHeight As Decimal = Val(TriangleHeightTextBox.Text) 'Triangle Height
 
         TriangleAreaAnswer.Text = Format(((TriangleBase * TriangleHeight) / 2), "0.00") 'Triangle Area
+        HistoryTextBox.AppendText("Triangle Area: " & TriangleAreaAnswer.Text & Environment.NewLine)
     End Sub
 
     Private Sub SquareComputeButton_Click(sender As Object, e As EventArgs) Handles SquareComputeButton.Click
         Dim SquareSide As Decimal = Val(SquareSideTextBox.Text) 'Square Side
 
         SquareAreaAnswer.Text = Format(SquareSide * SquareSide, "0.00") 'Square Area
+        HistoryTextBox.AppendText("Square Area: " & SquareAreaAnswer.Text & Environment.NewLine)
     End Sub
 
     Private Sub RectangleComputeButton_Click(sender As Object, e As EventArgs) Handles RectangleComputeButton.Click
@@ -90,6 +92,7 @@
         Dim RectangleHeight As Decimal = Val(RectangleHeightTextBox.Text) 'Triangle Height
 
         RectangleAreaAnswer.Text = Format(RectangleWidth * RectangleHeight, "0.00") 'Rectangle Area
+        HistoryTextBox.AppendText("Rectangle Area: " & RectangleAreaAnswer.Text & Environment.NewLine)
     End Sub
 
     Private Sub ResetButton_Click(sender As Object, e As EventArgs) Handles ResetButton.Click
@@ -102,5 +105,7 @@
 
         RectangleHeightTextBox.Text = ""
         RectangleAreaAnswer.Text = "0"
+
+        HistoryTextBox.Text = ""
     End Sub
 End Class
