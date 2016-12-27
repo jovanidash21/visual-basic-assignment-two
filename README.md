@@ -10,7 +10,7 @@
 </p>
 <p align="center"> 
 	<img src="https://raw.githubusercontent.com/jovanidash21/visual-basic-assignment-two/master/Screenshots/4.png">
-	<img src="https://raw.githubusercontent.com/jovanidash21/visual-basic-assignment-one/master/Screenshots/5.png">
+	<img src="https://raw.githubusercontent.com/jovanidash21/visual-basic-assignment-two/master/Screenshots/5.png">
 </p>
 
 ## Installation
