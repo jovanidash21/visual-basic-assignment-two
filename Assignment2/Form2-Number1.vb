@@ -97,34 +97,50 @@
     End Sub
 
     Private Sub ButtonPlus_Click(sender As Object, e As EventArgs) Handles ButtonPlus.Click
-        FirstNumber = CalculatorMainTextBox.Text
-        CalculatorMainTextBox.Text = ""
-        OperatorSelector = True
-        Operation = "+"
+        If CalculatorMainTextBox.Text = "" Then
+            OperatorSelector = False
+        Else
+            FirstNumber = CalculatorMainTextBox.Text
+            CalculatorMainTextBox.Text = ""
+            OperatorSelector = True
+            Operation = "+"
+        End If
         'Plus Button
     End Sub
 
     Private Sub ButtonMinus_Click(sender As Object, e As EventArgs) Handles ButtonMinus.Click
-        FirstNumber = CalculatorMainTextBox.Text
-        CalculatorMainTextBox.Text = ""
-        OperatorSelector = True
-        Operation = "-"
+        If CalculatorMainTextBox.Text = "" Then
+            OperatorSelector = False
+        Else
+            FirstNumber = CalculatorMainTextBox.Text
+            CalculatorMainTextBox.Text = ""
+            OperatorSelector = True
+            Operation = "-"
+        End If
         'Minus Button
     End Sub
 
     Private Sub ButtonMultiply_Click(sender As Object, e As EventArgs) Handles ButtonMultiply.Click
-        FirstNumber = CalculatorMainTextBox.Text
-        CalculatorMainTextBox.Text = ""
-        OperatorSelector = True
-        Operation = "*"
+        If CalculatorMainTextBox.Text = "" Then
+            OperatorSelector = False
+        Else
+            FirstNumber = CalculatorMainTextBox.Text
+            CalculatorMainTextBox.Text = ""
+            OperatorSelector = True
+            Operation = "*"
+        End If
         'Mutiply Button
     End Sub
 
     Private Sub ButtonDivide_Click(sender As Object, e As EventArgs) Handles ButtonDivide.Click
-        FirstNumber = CalculatorMainTextBox.Text
-        CalculatorMainTextBox.Text = ""
-        OperatorSelector = True
-        Operation = "/"
+        If CalculatorMainTextBox.Text = "" Then
+            OperatorSelector = False
+        Else
+            FirstNumber = CalculatorMainTextBox.Text
+            CalculatorMainTextBox.Text = ""
+            OperatorSelector = True
+            Operation = "/"
+        End If
         'Divide Button
     End Sub
 
